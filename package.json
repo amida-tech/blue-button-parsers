@@ -1,0 +1,36 @@
+{
+  "author": "Dmitry Kachaev, Matthew McCall, Ekavali Mishra, Jamie Johnson, Jacob Sachs, Matt Martz, Alexey Shchelokov and Afsin Ustundag",
+  "name": "DRE-Parsers",
+  "description": "DRE Parsers as services.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amida-tech/bluebutton-parsers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amida-tech/bluebutton-parsers/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "dependencies": {
+    "blue-button": "^1.5.0",
+    "blue-button-meta": "^1.5.0",
+    "lodash": "^3.7.0",
+    "npi-js": "0.0.12",
+    "debug": "^2.2.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "bench": "grunt benchmark && node lib/benchmark/show.js",
+    "test": "grunt"
+  },
+  "devDependencies": {
+  }
+}
