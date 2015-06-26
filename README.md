@@ -1,2 +1,2 @@
 # blue-button-parsers
-Parsers for deployment in cluster
+Parsers for deployment as web-services in separate process.
