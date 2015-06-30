@@ -20,7 +20,7 @@ var xml = '';
 
 function test(done) {
 
-    api.post('/').send(xml).end(function (err, res) {
+    api.post('/').set('Bearer', 'No Secret!').send(xml).end(function (err, res) {
         if (err) {
             return done(err);
         }
